@@ -3,8 +3,8 @@
 # script to software updates automatically
 
 
-apt list --upgradable
 sudo apt-get update -yy
+sudo apt upgrade -yy
 
 echo -e "Software Updates Installed\nHave a nice day!"
 
